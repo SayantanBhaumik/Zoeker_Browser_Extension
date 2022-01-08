@@ -1,0 +1,17 @@
+{
+    "name": "Zoeker",
+    "description": "A browser extension  that enables a user to select which data they would prefer to share! ",
+    "version": "1.0",
+    "manifest_version": 2,
+    
+   
+    "browser_action":{
+        "default_popup":"popup.html",
+        "deafult_title":"Wouldn't it be nice to be in control of your data"
+
+    },
+    "chrome_url_overrides":{
+        "newtab":"newtab.html"
+    },
+    "permissions": ["activeTab","history"]
+  }
